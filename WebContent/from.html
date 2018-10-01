@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>表单</title>
+<!-- 
+选择器{
+		属性名：值
+	
+	}   -->
+<style type="text/css">
+	body{
+	background-color:#999;
+	background-repeat:no-repeat;
+	font-size: 20px;
+	border-color: blue;
+	color:#000;
+	font-family:楷体;
+	text-align: center;
+	
+	}
+	
+</style>
+<!-- 引入css标签 -->
+<link rel="style ">
+</head>
+
+<body>
+	<!--
+	action 数据请求地址
+	所有html标签都有 name id class
+	  -->
+	<form action="http://www.baidu.com" method="">
+	用户名:<input type="text" name="username"><br><br>
+	密码:<input type="password" name="password"><br><br>
+	性别:男<input type="radio" name="gender"><br><br>
+		女<input type="radio" name="gender"><br><br>
+	爱好:羽毛球<input type="checkbox" name="likes">
+	乒乓球<input type="checkbox" name="likes"> 
+	篮球<input type="checkbox" name="likes"> 
+	足球<input type="checkbox" name="likes"><br><br>
+	格言:<textarea rows="10px" cols="20px" name="info"></textarea><br><br>
+	居住地:<select name="province">
+			<option value="北京">北京</option>
+			<option value="上海">上海</option>
+			<option value="南京">江苏</option>
+			<option value="武汉">武汉</option>
+	
+		</select>
+		<select name="city">
+			<option value="南京">南京</option>
+			<option value="苏州">苏州</option>
+			<option value="扬州">扬州</option>
+			<option value="无锡">无锡</option>	
+		</select><br><br>
+	<input type="submit" value="注册">
+	<input type="reset"  value="重置">
+	<input type="button" value="清空">
+	</form>
+
+	
+
+</body>
+
+</html>
